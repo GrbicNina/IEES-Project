@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:a="http://langdale.com.au/2005/Message#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<head>
+<title>Profile Documentation</title>
+<style type="text/css">
+/* typography: fonts */
+body { font-family: arial, sans-serif; }
+
+.name, .type, .cardinality, .superclass, .xsdtype, .namespace { font-family: courier, monospace; }
+
+
+/* typography: emphasis */
+h1 { color: white; background: gray;}
+
+h2, h3 { color: gray; text-decoration: none;}
+
+h2.abstract, h2.enumerated, h2.domain {font-style: italic } 
+
+p.note { background-color: #ddd }
+
+p.declaration { color: gray }
+
+:link { color: purple; }
+
+.xsdtype { color: black; font-weight: bold; }
+
+.namespace { color: black }
+
+.package { font-size: x-large; color: gray }
+
+
+/* borders */
+div.group {
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	
+}
+
+th, td {
+	border-top-style : solid;
+	border-top-width : 1px;
+	border-color: gray;
+ }
+
+
+/* spacing and alignment */
+body {padding: 5px; }
+
+h1 { padding: 5px;}
+
+div.group {
+	margin-top: 10px;
+	padding: 5px;
+	position: relative;
+}
+th, td {
+	text-align : left;
+	vertical-align : top;
+}
+th, td.type { width: 15em; overflow: visible; }
+
+p.cardinality { width: 4em; }
+
+p.package { position: absolute; right: 10px; top: 0px}				
+</style>
+</head>
+<body>
+<h1>Profile Documentation</h1>
+<p/>
+<p class="declaration">
+					Profile namespace:
+					<span class="namespace">http://iec.ch/TC57/2007/profile#</span>
+</p>
+<h1>Concrete Classes</h1>
+<div id="DayType" class="group">
+<a href="#DayType">
+<h2 class="concrete">DayType</h2>
+</a>
+<p class="package">LoadModel</p>
+<p class="comment">Group of similar days.   For example it could be used to represent weekdays, weekend, or holidays.</p>
+<h3>Inherited Members</h3>
+<table>
+<tr>
+<th>
+<p class="name">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.mRID">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.aliasName">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.name">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="RegularTimePoint" class="group">
+<a href="#RegularTimePoint">
+<h2 class="concrete">RegularTimePoint</h2>
+</a>
+<p class="package">Core</p>
+<p class="comment">Time point for a schedule where the time between the consecutive points is constant.</p>
+<h3>Native Members</h3>
+<table>
+<tr>
+<th>
+<p class="name" id="RegularTimePoint.sequenceNumber">sequenceNumber</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">integer</p>
+</td>
+<td>
+<p class="comment">The position of the regular time point in the sequence. Note that time points don't have to be sequential, i.e. time points may be omitted. The actual time for a RegularTimePoint is computed by multiplying the associated regular interval schedule's time step with the regular time point sequence number and adding the associated schedules start time.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="RegularTimePoint.value1">value1</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">float</p>
+</td>
+<td>
+<p class="comment">The first value at the time. The meaning of the value is defined by the derived type of the associated schedule.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="RegularTimePoint.value2">value2</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">float</p>
+</td>
+<td>
+<p class="comment">The second value at the time. The meaning of the value is defined by the derived type of the associated schedule.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="RegularTimePoint.IntervalSchedule">IntervalSchedule</p>
+</th>
+<td>
+<p class="cardinality">1..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#RegularIntervalSchedule">RegularIntervalSchedule</a>
+</p>
+</td>
+<td>
+<p class="comment">Regular interval schedule containing this time point.</p>
+</td>
+</tr>
+</table>
+<h3>Inherited Members</h3>
+<table>
+<tr>
+<th>
+<p class="name">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.mRID">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.aliasName">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.name">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<h1>Abstract Classes</h1>
+<div id="BasicIntervalSchedule" class="group">
+<a href="#BasicIntervalSchedule">
+<h2 class="abstract">BasicIntervalSchedule</h2>
+</a>
+<p class="package">Core</p>
+<p class="comment">Schedule of values at points in time.</p>
+<h3>Native Members</h3>
+<table>
+<tr>
+<th>
+<p class="name" id="BasicIntervalSchedule.startTime">startTime</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">dateTime</p>
+</td>
+<td>
+<p class="comment">The time for the first time point.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="BasicIntervalSchedule.value1Multiplier">value1Multiplier</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitMultiplier">UnitMultiplier</a>
+</p>
+</td>
+<td>
+<p class="comment">Multiplier for value1.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="BasicIntervalSchedule.value1Unit">value1Unit</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitSymbol">UnitSymbol</a>
+</p>
+</td>
+<td>
+<p class="comment">Value1 units of measure.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="BasicIntervalSchedule.value2Multiplier">value2Multiplier</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitMultiplier">UnitMultiplier</a>
+</p>
+</td>
+<td>
+<p class="comment">Multiplier for value2.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="BasicIntervalSchedule.value2Unit">value2Unit</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitSymbol">UnitSymbol</a>
+</p>
+</td>
+<td>
+<p class="comment">Value2 units of measure.</p>
+</td>
+</tr>
+</table>
+<h3>Inherited Members</h3>
+<table>
+<tr>
+<th>
+<p class="name">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.mRID">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.aliasName">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.name">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="Equipment" class="group">
+<a href="#Equipment">
+<h2 class="abstract">Equipment</h2>
+</a>
+<p class="package">Core</p>
+<p class="comment">The parts of a power system that are physical devices, electronic or mechanical.</p>
+<h3>Native Members</h3>
+<table>
+<tr>
+<th>
+<p class="name" id="Equipment.aggregate">aggregate</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">boolean</p>
+</td>
+<td>
+<p class="comment">The single instance of equipment represents multiple pieces of equipment that have been modeled together as an aggregate.  Examples would be power transformers or sychronous machines operating in parallel modeled as a single aggregate power transformer or aggregate synchronous machine.  This is not to be used to indicate equipment that is part of a group of interdependent equipment produced by a network production program.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="Equipment.normallyInService">normallyInService</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">boolean</p>
+</td>
+<td>
+<p class="comment">If true, the equipment is normally in service.</p>
+</td>
+</tr>
+</table>
+<h3>Inherited Members</h3>
+<table/>
+<table>
+<tr>
+<th>
+<p class="name">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.mRID">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.aliasName">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.name">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="IdentifiedObject" class="group">
+<a href="#IdentifiedObject">
+<h2 class="abstract">IdentifiedObject</h2>
+</a>
+<p class="package">Core</p>
+<p class="comment">This is a root class to provide common identification for all classes needing identification and naming attributes.</p>
+<h3>Native Members</h3>
+<table>
+<tr>
+<th>
+<p class="name" id="IdentifiedObject.mRID">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p class="comment">Master resource identifier issued by a model authority. The mRID is globally unique within an exchange context.</p>
+<p class="comment">Global uniqeness is easily achived by using a UUID for the mRID. It is strongly recommended to do this.</p>
+<p class="comment">For CIMXML data files in RDF syntax, the mRID is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="IdentifiedObject.aliasName">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p class="comment">The aliasName is free text human readable name of the object alternative to IdentifiedObject.name. It may be non unique and may not correlate to a naming hierarchy.</p>
+<p class="comment">The attribute aliasName is retained because of backwards compatibility between CIM relases. It is however recommended to replace aliasName with the Name class as aliasName is planned for retirement at a future time.</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name" id="IdentifiedObject.name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p class="comment">The name is any free human readable and possibly non unique text naming the object.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="PowerSystemResource" class="group">
+<a href="#PowerSystemResource">
+<h2 class="abstract">PowerSystemResource</h2>
+</a>
+<p class="package">Core</p>
+<p class="comment">A power system resource can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated.</p>
+<h3>Inherited Members</h3>
+<table>
+<tr>
+<th>
+<p class="name">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.mRID">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.aliasName">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.name">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="RegularIntervalSchedule" class="group">
+<a href="#RegularIntervalSchedule">
+<h2 class="abstract">RegularIntervalSchedule</h2>
+</a>
+<p class="package">Core</p>
+<p class="comment">The schedule has time points where the time between them is constant.</p>
+<h3>Inherited Members</h3>
+<table>
+<tr>
+<th>
+<p class="name">startTime</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">dateTime</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#BasicIntervalSchedule.startTime">BasicIntervalSchedule</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">value1Multiplier</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitMultiplier">UnitMultiplier</a>
+</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#BasicIntervalSchedule.value1Multiplier">BasicIntervalSchedule</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">value1Unit</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitSymbol">UnitSymbol</a>
+</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#BasicIntervalSchedule.value1Unit">BasicIntervalSchedule</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">value2Multiplier</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitMultiplier">UnitMultiplier</a>
+</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#BasicIntervalSchedule.value2Multiplier">BasicIntervalSchedule</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">value2Unit</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">
+<a href="#UnitSymbol">UnitSymbol</a>
+</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#BasicIntervalSchedule.value2Unit">BasicIntervalSchedule</a>
+</p>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<th>
+<p class="name">mRID</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.mRID">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">aliasName</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.aliasName">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+<tr>
+<th>
+<p class="name">name</p>
+</th>
+<td>
+<p class="cardinality">0..1</p>
+</td>
+<td class="type">
+<p class="type">string</p>
+</td>
+<td>
+<p>see <a class="superclass" href="#IdentifiedObject.name">IdentifiedObject</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<h1>Enumerations</h1>
+<h1>Compound Types</h1>
+<h1>Datatypes</h1>
+</body>
+</html>
