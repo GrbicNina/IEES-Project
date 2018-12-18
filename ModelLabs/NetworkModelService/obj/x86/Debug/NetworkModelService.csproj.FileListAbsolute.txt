@@ -25,3 +25,7 @@ D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelL
 D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelLabsProjekat2018\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CopyComplete
 D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelLabsProjekat2018\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.dll
 D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelLabsProjekat2018\ModelLabsProjekat\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csprojAssemblyReference.cache
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CoreCompileInputs.cache
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.dll
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.pdb

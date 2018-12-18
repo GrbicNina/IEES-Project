@@ -177,3 +177,530 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.eclipse.core.resources 4 274 2018-12-17 17:55:47.068
 !MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+!SESSION 2018-12-19 00:18:51.867 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=sr
+Framework arguments:  -perspective au.com.langdale.cimtoole.CIMToolPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective au.com.langdale.cimtoole.CIMToolPerspective
+
+!ENTRY au.com.langdale.cimtoole 4 0 2018-12-19 00:19:14.915
+!MESSAGE Can't parse model file ProjectProfile.owl
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:664)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at au.com.langdale.cimtoole.project.Task.parseOWL(Task.java:286)
+	at au.com.langdale.cimtoole.project.Task.parse(Task.java:196)
+	at au.com.langdale.cimtoole.project.Cache$ParseWorker.build(Cache.java:234)
+	at au.com.langdale.cimtoole.project.Cache$CacheWorker.run(Cache.java:213)
+	at au.com.langdale.util.Jobs$1.run(Jobs.java:29)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2018-12-19 00:19:14.916
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+
+!ENTRY au.com.langdale.cimtoole 4 0 2018-12-19 00:19:21.177
+!MESSAGE Can't parse model file ProjectProfile.owl
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:664)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at au.com.langdale.cimtoole.project.Task.parseOWL(Task.java:286)
+	at au.com.langdale.cimtoole.project.Task.parse(Task.java:196)
+	at au.com.langdale.cimtoole.project.Cache$ParseWorker.build(Cache.java:234)
+	at au.com.langdale.cimtoole.project.Cache$CacheWorker.run(Cache.java:213)
+	at au.com.langdale.util.Jobs$1.run(Jobs.java:29)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2018-12-19 00:19:21.177
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+
+!ENTRY au.com.langdale.cimtoole 4 0 2018-12-19 00:20:12.445
+!MESSAGE Can't parse model file ProjectProfile.owl
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:664)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at au.com.langdale.cimtoole.project.Task.parseOWL(Task.java:286)
+	at au.com.langdale.cimtoole.project.Task.parse(Task.java:196)
+	at au.com.langdale.cimtoole.project.Cache$ParseWorker.build(Cache.java:234)
+	at au.com.langdale.cimtoole.project.Cache$CacheWorker.run(Cache.java:213)
+	at au.com.langdale.util.Jobs$1.run(Jobs.java:29)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2018-12-19 00:20:12.446
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.owl'.
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-19 00:20:35.229
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:729)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:682)
+	at au.com.langdale.cimtoole.builder.Buildlet.clean(Buildlet.java:48)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:118)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-12-19 00:20:35.230
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2018-12-19 00:20:35.230
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2018-12-19 00:20:35.230
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.html'.
+
+!ENTRY org.eclipse.core.resources 4 75 2018-12-19 00:20:35.241
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 au.com.langdale.cimtoole 2 75 2018-12-19 00:20:35.241
+!MESSAGE Errors running builder 'CIM Project Builder' on project 'ProfileProject'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:729)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:682)
+	at au.com.langdale.cimtoole.builder.Buildlet.clean(Buildlet.java:48)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:118)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.html'.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2018-12-19 00:20:35.241
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 3 org.eclipse.core.resources 4 274 2018-12-19 00:20:35.241
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.html'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2018-12-19 00:20:35.241
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2018-12-19 00:20:35.241
+!MESSAGE Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.html'.
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-19 00:20:53.431
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: can't write model to stream
+	at au.com.langdale.cimtoole.project.Info.error(Info.java:293)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:331)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	... 17 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 1 au.com.langdale.cimtoole 4 0 2018-12-19 00:20:53.431
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 1 au.com.langdale.cimtoole 4 0 2018-12-19 00:20:53.431
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+
+!ENTRY org.eclipse.core.resources 4 75 2018-12-19 00:20:53.441
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 au.com.langdale.cimtoole 2 75 2018-12-19 00:20:53.441
+!MESSAGE Errors running builder 'CIM Project Builder' on project 'ProfileProject'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: can't write model to stream
+	at au.com.langdale.cimtoole.project.Info.error(Info.java:293)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:331)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	... 17 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 2 au.com.langdale.cimtoole 4 0 2018-12-19 00:20:53.441
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 1 au.com.langdale.cimtoole 4 0 2018-12-19 00:20:53.442
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-19 00:23:36.946
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: can't write model to stream
+	at au.com.langdale.cimtoole.project.Info.error(Info.java:293)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:331)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	... 17 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 1 au.com.langdale.cimtoole 4 0 2018-12-19 00:23:36.947
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 1 au.com.langdale.cimtoole 4 0 2018-12-19 00:23:36.947
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+
+!ENTRY org.eclipse.core.resources 4 75 2018-12-19 00:23:36.959
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 au.com.langdale.cimtoole 2 75 2018-12-19 00:23:36.959
+!MESSAGE Errors running builder 'CIM Project Builder' on project 'ProfileProject'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: can't write model to stream
+	at au.com.langdale.cimtoole.project.Info.error(Info.java:293)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:331)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	... 17 more
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 2 au.com.langdale.cimtoole 4 0 2018-12-19 00:23:36.959
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more
+!SUBENTRY 1 au.com.langdale.cimtoole 4 0 2018-12-19 00:23:36.959
+!MESSAGE can't write model to stream
+!STACK 0
+java.io.IOException
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:61)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:329)
+	at au.com.langdale.cimtoole.project.Task.write(Task.java:311)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$RDFSBasedBuildlet.build(ProfileBuildlets.java:286)
+	at au.com.langdale.cimtoole.builder.ProfileBuildlets$ProfileBuildlet.run(ProfileBuildlets.java:120)
+	at au.com.langdale.cimtoole.builder.CIMBuilder$Worker.run(CIMBuilder.java:210)
+	at au.com.langdale.cimtoole.builder.CIMBuilder.build(CIMBuilder.java:234)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/ProfileProject/Profiles/ProjectProfile.legacy-rdfs'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:936)
+	at org.eclipse.core.internal.resources.File.internalSetContents(File.java:320)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:359)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:459)
+	at au.com.langdale.workspace.ResourceOutputStream$1.run(ResourceOutputStream.java:40)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at au.com.langdale.workspace.ResourceOutputStream.close(ResourceOutputStream.java:59)
+	... 18 more

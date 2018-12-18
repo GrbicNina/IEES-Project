@@ -48,3 +48,14 @@ D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelL
 D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelLabsProjekat2018\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.CopyComplete
 D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelLabsProjekat2018\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.exe
 D:\Users - Nina - Desktop sa D\Nina Fax\Cetvrta godina\Blok3\Projekat2018\ModelLabsProjekat2018\ModelLabsProjekat\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\ModelLabsApp.exe.config
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\ModelLabsApp.exe
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\ModelLabsApp.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csprojAssemblyReference.cache
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.ModelLabsAppForm.resources
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.Properties.Resources.resources
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.GenerateResource.cache
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.CoreCompileInputs.cache
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.csproj.CopyComplete
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.exe
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\ModelLabsApp\obj\x86\Debug\ModelLabsApp.pdb
