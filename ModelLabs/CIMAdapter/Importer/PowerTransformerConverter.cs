@@ -211,7 +211,7 @@
             }
         }
 
-        public static void PopulateLoadBreakSwitchProperties(FTN.Recloser cimLoadBreakSwitch, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
+        public static void PopulateLoadBreakSwitchProperties(FTN.LoadBreakSwitch cimLoadBreakSwitch, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
         {
             if ((cimLoadBreakSwitch != null) && (rd != null))
             {

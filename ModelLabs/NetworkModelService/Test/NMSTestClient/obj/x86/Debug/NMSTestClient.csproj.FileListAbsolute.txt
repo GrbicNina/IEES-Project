@@ -52,3 +52,7 @@ C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\Test\NMSTestCli
 C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.csproj.CoreCompileInputs.cache
 C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.exe
 C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\NMSTestClient.exe.config
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\NMSTestClient.exe
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\NMSTestClient.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.csproj.CopyComplete

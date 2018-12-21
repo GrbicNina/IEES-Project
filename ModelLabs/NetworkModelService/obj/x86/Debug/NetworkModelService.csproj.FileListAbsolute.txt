@@ -29,3 +29,6 @@ C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\N
 C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CoreCompileInputs.cache
 C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.dll
 C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\FTN.Services.NetworkModelService.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\FTN.Services.NetworkModelService.dll
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\bin\FTN.Services.NetworkModelService.pdb
+C:\Users\Nina\Desktop\IEES-Project\ModelLabs\NetworkModelService\obj\x86\Debug\NetworkModelService.csproj.CopyComplete

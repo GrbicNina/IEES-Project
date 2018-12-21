@@ -11,7 +11,10 @@ namespace FTN.Common
 
 		public EnumDescs()
 		{
-											
+            property2enumType.Add(ModelCode.BASICINTS_VAL1MUL, typeof(UnitMultiplier));
+            property2enumType.Add(ModelCode.BASICINTS_VAL1UNIT, typeof(UnitSymbol));
+            property2enumType.Add(ModelCode.BASICINTS_VAL2MUL, typeof(UnitMultiplier));
+            property2enumType.Add(ModelCode.BASICINTS_VAL2UNIT, typeof(UnitSymbol));
 		}
 
 		public List<string> GetEnumList(ModelCode propertyId)

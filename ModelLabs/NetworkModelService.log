@@ -1,0 +1,25 @@
+21.12.2018. 17.40.21 : Starting Network Model Serivice...
+21.12.2018. 17.40.24 : The WCF service GenericDataAccess is ready.
+21.12.2018. 17.40.24 : Endpoints:
+21.12.2018. 17.40.24 : net.tcp://localhost:10000/NetworkModelService/GDA/
+21.12.2018. 17.40.24 : Connection string: ../NetworkModelData.data
+21.12.2018. 17.40.24 : Trace level: Info
+21.12.2018. 17.40.24 : The Network Model Service is started.
+21.12.2018. 17.40.24 : Press <Enter> to stop the service.
+21.12.2018. 21.01.31 : Starting Network Model Serivice...
+21.12.2018. 21.01.33 : The WCF service GenericDataAccess is ready.
+21.12.2018. 21.01.33 : Endpoints:
+21.12.2018. 21.01.33 : net.tcp://localhost:10000/NetworkModelService/GDA/
+21.12.2018. 21.01.33 : Connection string: ../NetworkModelData.data
+21.12.2018. 21.01.33 : Trace level: Info
+21.12.2018. 21.01.33 : The Network Model Service is started.
+21.12.2018. 21.01.33 : Press <Enter> to stop the service.
+21.12.2018. 21.01.45 : Applying  delta to network model.
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000100000001).
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000200000001).
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000300000001).
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000400000001).
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000500000001).
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000600000001).
+21.12.2018. 21.01.45 : Inserting entity with GID (0000000700000001).
+21.12.2018. 21.01.45 : Applying delta to network model successfully finished.
