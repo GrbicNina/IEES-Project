@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:msg="http://langdale.com.au/2005/Message#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="http://iec.ch/TC57/2007/profile#"
+    xmlns:uml="http://langdale.com.au/2005/UML#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://iec.ch/TC57/2007/profile" > 
+  <rdf:Description rdf:about="#SeasonDayTypeSchedule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SeasonDayTypeSchedule"/>
+    <rdfs:subClassOf rdf:resource="#RegularIntervalSchedule"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f24"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularIntervalSchedule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularIntervalSchedule"/>
+    <rdfs:subClassOf rdf:resource="#BasicIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f28">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label>startDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ProtectedSwitch.breakingCapacity"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProtectedSwitch">
+    <rdfs:subClassOf rdf:resource="#ConductingEquipment"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ProtectedSwitch"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9e">
+    <owl:allValuesFrom rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9f"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/CIM-generic#Switch.normalOpen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f96">
+    <rdfs:label>switchOnDate</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f53">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#UnitSymbol"/>
+    <rdfs:label>value1Unit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SwitchSchedule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SwitchSchedule"/>
+    <rdfs:subClassOf rdf:resource="#SeasonDayTypeSchedule"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1e"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1d"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f93">
+    <rdfs:label>ratedCurrent</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#CurrentFlow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BasicIntervalSchedule">
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4f"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f52"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f55"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f58"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4c"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f44">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:label>value2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f2b">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label>endDate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule.value2Unit"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint.IntervalSchedule"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f41"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5c">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>name</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SeasonDayTypeSchedule.Season"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Recloser">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Recloser"/>
+    <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment.aggregate"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule.value2Multiplier"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f50"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9f">
+    <rdfs:label>normalOpen</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f50">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#UnitMultiplier"/>
+    <rdfs:label>value2Multiplier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#CurrentFlow"/>
+    <rdfs:label>breakingCapacity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season.startDate"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f28"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9b">
+    <owl:allValuesFrom rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9c"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/CIM-generic#Switch.retained"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f47">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:label>value1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5f">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>mRID</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://langdale.com.au/2007/Buildlet#legacy-rdfs">
+    <rdf:type rdf:resource="http://langdale.com.au/2005/Message#Flag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f58">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule.startTime"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f59"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint.value2"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Breaker">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Breaker"/>
+    <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Switch">
+    <rdfs:subClassOf rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f92"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9b"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f95"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/CIM-generic#Switch"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f98"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Breaker.inTransitTime"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Season">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f2a"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f29"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f27"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f26"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.name"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f92">
+    <owl:allValuesFrom rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f93"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/CIM-generic#Switch.ratedCurrent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#LoadBreakSwitch">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#LoadBreakSwitch"/>
+    <rdfs:subClassOf rdf:resource="#ProtectedSwitch"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f61">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.aliasName"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>Profile</rdfs:label>
+    <owl:imports rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PowerSystemResource">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerSystemResource"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SwitchSchedule.Switch"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="#RegularTimePoint">
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f46"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f49"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f43"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f40"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ConductingEquipment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment"/>
+    <rdfs:subClassOf rdf:resource="#Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint.value1"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f47"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f59">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label>startTime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule.value1Multiplier"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f56"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season.startDate"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f9c">
+    <rdfs:label>retained</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f98">
+    <owl:allValuesFrom rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f99"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/CIM-generic#Switch.switchOnCount"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season.endDate"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f95">
+    <owl:allValuesFrom rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f96"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/CIM-generic#Switch.switchOnDate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4a">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:label>sequenceNumber</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#DayType"/>
+    <rdfs:label>DayType</rdfs:label>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Seconds"/>
+    <rdfs:label>inTransitTime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SwitchSchedule.Switch"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Equipment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment"/>
+    <rdfs:subClassOf rdf:resource="#PowerSystemResource"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3c"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f39"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3d">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:label>aggregate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3a">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:label>normallyInService</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f52">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule.value1Unit"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f61"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5b"/>
+    <rdfs:subClassOf rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f5e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f2a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season.endDate"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f2b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X2d5ac2bbXa3X167c39f3e8dXa3X-7f99">
+    <rdfs:label>switchOnCount</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f62">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>aliasName</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f56">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#UnitMultiplier"/>
+    <rdfs:label>value1Multiplier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment.normallyInService"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season"/>
+    <rdfs:label>Season</rdfs:label>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularIntervalSchedule"/>
+    <rdfs:label>IntervalSchedule</rdfs:label>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#DayType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#DayType"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://langdale.com.au/2007/Buildlet#html">
+    <rdf:type rdf:resource="http://langdale.com.au/2005/Message#Flag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f1f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Switch"/>
+    <rdfs:label>Switch</rdfs:label>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#UnitSymbol"/>
+    <rdfs:label>value2Unit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SeasonDayTypeSchedule.DayType"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f22"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f49">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint.sequenceNumber"/>
+    <owl:allValuesFrom rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f4a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="X73X50a89a8Xa3X167a4311ff7Xa3X-7f3e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint.IntervalSchedule"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+  </rdf:Description>
+</rdf:RDF>

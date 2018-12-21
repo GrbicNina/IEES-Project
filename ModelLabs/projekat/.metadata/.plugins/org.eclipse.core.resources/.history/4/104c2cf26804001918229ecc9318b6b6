@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:j.0="http://langdale.com.au/2007/log#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:msg="http://langdale.com.au/2005/Message#"
+    xmlns:j.1="http://langdale.com.au/2009/Repair#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:uml="http://langdale.com.au/2005/UML#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5c">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#LoadBreakSwitch"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3e">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#PowerSystemResource"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0b">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0a"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2e">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#DayType"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4c">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b44">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#RegularIntervalSchedule"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b15">
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#BasicIntervalSchedule">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b55">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b56"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b25">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment"/>
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b26"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b34">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#RegularTimePoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5d">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5b"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3d">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3e"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerSystemResource"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b07">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SeasonDayTypeSchedule"/>
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b08"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0c">
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SeasonDayTypeSchedule"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0b"/>
+    <j.0:problemDetail>profile:SeasonDayTypeSchedule is based on an undefined class CIM-schema-cim15:SeasonDayTypeSchedule</j.0:problemDetail>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b09"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2d">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2b"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4d">
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b45">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b43"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4e">
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4d"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4b"/>
+    <j.0:problemDetail>profile:IdentifiedObject is based on an undefined class CIM-schema-cim15:IdentifiedObject</j.0:problemDetail>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b14">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#SwitchSchedule"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b54">
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b53"/>
+    <j.0:problemDetail>profile:Recloser is based on an undefined class CIM-schema-cim15:Recloser</j.0:problemDetail>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Recloser"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b51"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3c">
+    <j.0:problemDetail>profile:BasicIntervalSchedule is based on an undefined class CIM-schema-cim15:BasicIntervalSchedule</j.0:problemDetail>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3b"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b39"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Season">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b12"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b24">
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ProtectedSwitch"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b21"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b23"/>
+    <j.0:problemDetail>profile:ProtectedSwitch is based on an undefined class CIM-schema-cim15:ProtectedSwitch</j.0:problemDetail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b35">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#PowerSystemResource">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b42"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b32">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#RegularTimePoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5e">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#LoadBreakSwitch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#RegularTimePoint">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b36"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4a">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#IdentifiedObject"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2c">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#DayType"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0d">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0e"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2b">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2c"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#DayType"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b13">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b14"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SwitchSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b46">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#RegularIntervalSchedule"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5f">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5e"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b53">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b52"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Equipment">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b27">
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b25"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3f">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3d"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#IdentifiedObject">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b33">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b31"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4b">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b49"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0e">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#Season"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2a">
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Equipment"/>
+    <j.0:problemDetail>profile:Equipment is based on an undefined class CIM-schema-cim15:Equipment</j.0:problemDetail>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b27"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b12">
+    <j.0:problemDetail>profile:Season is based on an undefined class CIM-schema-cim15:Season</j.0:problemDetail>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Season"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0f"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#DayType">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b30"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b47">
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b26">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#Equipment"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b52">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#Recloser"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b40">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#PowerSystemResource"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#SeasonDayTypeSchedule">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#RegularIntervalSchedule">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b48"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0f">
+    <rdfs:comment>rename this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0d"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b51">
+    <rdfs:comment>rename this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4f"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b39">
+    <rdfs:comment>rename this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b37"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b30">
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#DayType"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2f"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2d"/>
+    <j.0:problemDetail>profile:DayType is based on an undefined class CIM-schema-cim15:DayType</j.0:problemDetail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ProtectedSwitch">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b24"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b49">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4a"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b59">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b58"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#SwitchSchedule">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b18"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1f">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ProtectedSwitch"/>
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b20"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b29">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b28"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b10">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#Season"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b0a">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#SeasonDayTypeSchedule"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2f">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b2e"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b19">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1a"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Breaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b20">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#ProtectedSwitch"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Recloser">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b54"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b41">
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b40"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b38">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#BasicIntervalSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b50">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#Recloser"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b60">
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5f"/>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#LoadBreakSwitch"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5d"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:problemDetail>profile:LoadBreakSwitch is based on an undefined class CIM-schema-cim15:LoadBreakSwitch</j.0:problemDetail>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b31">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b32"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b58">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#ConductingEquipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b48">
+    <j.0:problemDetail>profile:RegularIntervalSchedule is based on an undefined class CIM-schema-cim15:RegularIntervalSchedule</j.0:problemDetail>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b45"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b47"/>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularIntervalSchedule"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b28">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#Equipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b11">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b10"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#Breaker">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b18">
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b17"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:problemDetail>profile:SwitchSchedule is based on an undefined class CIM-schema-cim15:SwitchSchedule</j.0:problemDetail>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b15"/>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#SwitchSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b21">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1f"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#LoadBreakSwitch">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b42">
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3f"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b41"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <j.0:problemDetail>profile:PowerSystemResource is based on an undefined class CIM-schema-cim15:PowerSystemResource</j.0:problemDetail>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#PowerSystemResource"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b37">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BasicIntervalSchedule"/>
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://iec.ch/TC57/2007/profile#ConductingEquipment">
+    <j.0:hasProblem rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b57">
+    <rdfs:comment>rename this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b55"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1c">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#Breaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1d">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1c"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3b">
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b22">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#ProtectedSwitch"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5a">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:problemDetail>profile:ConductingEquipment is based on an undefined class CIM-schema-cim15:ConductingEquipment</j.0:problemDetail>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#ConductingEquipment"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b59"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b57"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b17">
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b16"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b08">
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#SeasonDayTypeSchedule"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b4f">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b50"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Recloser"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b43">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularIntervalSchedule"/>
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b44"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b23">
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#remove"/>
+    <rdfs:comment>remove this item</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b22"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b36">
+    <j.0:problemDetail>profile:RegularTimePoint is based on an undefined class CIM-schema-cim15:RegularTimePoint</j.0:problemDetail>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b35"/>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#RegularTimePoint"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b33"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b56">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#ConductingEquipment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1a">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/CIM-generic#Breaker"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1e">
+    <j.0:problemDetail>profile:Breaker is based on an undefined class CIM-schema-cim15:Breaker</j.0:problemDetail>
+    <j.0:problemReference rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Breaker"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Problem"/>
+    <rdfs:comment>is based on an undefined class</rdfs:comment>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1b"/>
+    <j.0:hasRepairs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b1b">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b3a">
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#BasicIntervalSchedule"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b09">
+    <rdf:type rdf:resource="http://langdale.com.au/2007/log#Repair"/>
+    <j.0:repairArgs rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b07"/>
+    <rdf:type rdf:resource="http://langdale.com.au/2009/Repair#rename"/>
+    <rdfs:comment>rename this item</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b16">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2007/profile#SwitchSchedule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5b">
+    <rdf:rest rdf:nodeID="Xd2Xe1323b8Xa3X167cc217bbaXa3X-7b5c"/>
+    <rdf:first rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#LoadBreakSwitch"/>
+  </rdf:Description>
+</rdf:RDF>

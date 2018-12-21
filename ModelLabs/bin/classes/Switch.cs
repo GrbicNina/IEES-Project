@@ -23,6 +23,13 @@ namespace FTN {
         
         private const string _normalOpenPrefix = "cim";
         
+        /// The maximum continuous current carrying capacity in amps governed by the device material and construction.
+        private System.Single? cim_ratedCurrent;
+        
+        private const bool isRatedCurrentMandatory = false;
+        
+        private const string _ratedCurrentPrefix = "cim";
+        
         /// Branch is retained in a bus branch model.
         private System.Boolean? cim_retained;
         
@@ -68,6 +75,33 @@ namespace FTN {
         public static string NormalOpenPrefix {
             get {
                 return _normalOpenPrefix;
+            }
+        }
+        
+        public virtual float RatedCurrent {
+            get {
+                return this.cim_ratedCurrent.GetValueOrDefault();
+            }
+            set {
+                this.cim_ratedCurrent = value;
+            }
+        }
+        
+        public virtual bool RatedCurrentHasValue {
+            get {
+                return this.cim_ratedCurrent != null;
+            }
+        }
+        
+        public static bool IsRatedCurrentMandatory {
+            get {
+                return isRatedCurrentMandatory;
+            }
+        }
+        
+        public static string RatedCurrentPrefix {
+            get {
+                return _ratedCurrentPrefix;
             }
         }
         

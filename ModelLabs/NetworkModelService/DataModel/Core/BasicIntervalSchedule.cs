@@ -9,19 +9,22 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
     public class BasicIntervalSchedule : IdentifiedObject
     {
         private DateTime startTime;
-        private float value1Multiplier;
-        private float value1Unit;
-        private float value2Multiplier;
-        private float value2Unit;
+        private UnitMultiplier value1Multiplier;
+        private UnitSymbol value1Unit;
+        private UnitMultiplier value2Multiplier;
+        private UnitSymbol value2Unit;
+
+        public DateTime StartTime { get => startTime; set => startTime = value; }
+        public UnitMultiplier Value1Multiplier { get => value1Multiplier; set => value1Multiplier = value; }
+        public UnitSymbol Value1Unit { get => value1Unit; set => value1Unit = value; }
+        public UnitMultiplier Value2Multiplier { get => value2Multiplier; set => value2Multiplier = value; }
+        public UnitSymbol Value2Unit { get => value2Unit; set => value2Unit = value; }
 
         public BasicIntervalSchedule(long globalId) : base(globalId)
         {
         }
 
-        public float Value1Multiplier { get => value1Multiplier; set => value1Multiplier = value; }
-        public float Value1Unit { get => value1Unit; set => value1Unit = value; }
-        public float Value2Multiplier { get => value2Multiplier; set => value2Multiplier = value; }
-        public float Value2Unit { get => value2Unit; set => value2Unit = value; }
+        
 
         public override bool Equals(object obj)
         {
@@ -31,8 +34,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
             }else
             {
                 BasicIntervalSchedule bs = (BasicIntervalSchedule)obj;
-                return ((bs.startTime == this.startTime) && (bs.value1Multiplier == this.value1Multiplier) &&
-                    (bs.value1Unit == this.value1Unit) && (bs.value2Multiplier == this.value2Multiplier) && (bs.value2Unit == this.value2Unit));
+                return ((bs.StartTime == this.StartTime) && (bs.Value1Multiplier == this.Value1Multiplier) &&
+                    (bs.Value1Unit == this.Value1Unit) && (bs.Value2Multiplier == this.Value2Multiplier) && (bs.Value2Unit == this.Value2Unit));
             }
         }
 
@@ -63,20 +66,20 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
             switch (property.Id)
             {
                 case ModelCode.BASICINTS_STARTTIME:
-                    property.SetValue(startTime);
+                    property.SetValue(StartTime);
                     break;
 
                 case ModelCode.BASICINTS_VAL1MUL:
-                    property.SetValue(value1Multiplier);
+                    property.SetValue((short)Value1Multiplier);
                     break;
                 case ModelCode.BASICINTS_VAL1UNIT:
-                    property.SetValue(Value1Unit);
+                    property.SetValue((short)Value1Unit);
                     break;
                 case ModelCode.BASICINTS_VAL2MUL:
-                    property.SetValue(value2Multiplier);
+                    property.SetValue((short)Value2Multiplier);
                     break;
                 case ModelCode.BASICINTS_VAL2UNIT:
-                    property.SetValue(value2Unit);
+                    property.SetValue((short)Value2Unit);
                     break;
                 default:
                     base.GetProperty(property);
@@ -89,19 +92,19 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
             switch (property.Id)
             {
                 case ModelCode.BASICINTS_STARTTIME:
-                    startTime = property.AsDateTime();
+                    StartTime = property.AsDateTime();
                     break;
                 case ModelCode.BASICINTS_VAL1MUL:
-                    value1Multiplier = property.AsFloat();
+                    Value1Multiplier = (UnitMultiplier)property.AsEnum();
                     break;
                 case ModelCode.BASICINTS_VAL1UNIT:
-                    value1Unit = property.AsFloat();
+                    Value1Unit = (UnitSymbol)property.AsEnum();
                     break;
                 case ModelCode.BASICINTS_VAL2MUL:
-                    value2Multiplier = property.AsFloat();
+                    Value2Multiplier = (UnitMultiplier)property.AsEnum();
                     break;
                 case ModelCode.BASICINTS_VAL2UNIT:
-                    value2Unit = property.AsFloat();
+                    Value2Unit = (UnitSymbol)property.AsEnum();
                     break;
                 default:
                     base.SetProperty(property);

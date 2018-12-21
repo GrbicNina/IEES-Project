@@ -17,7 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,16 +28,12 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="au.com.langdale.cimtoole.editors.MessageModelEditor" name="ProjectProfile.owl" partName="ProjectProfile.owl" path="D:/Users - Nina - Desktop sa D/Nina Fax/Cetvrta godina/Blok3/Projekat2018/ModelLabsProjekat2018/ModelLabsProjekat/ModelLabs/projekat/ProfileProject/Profiles/ProjectProfile.owl" title="ProjectProfile.owl" tooltip="ProfileProject/Profiles/ProjectProfile.owl" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="au.com.langdale.cimtoole.editors.MessageModelEditor" name="ProjectProfile.owl" partName="ProjectProfile.owl" path="C:/Users/Nina/Desktop/IEES-Project/ModelLabs/projekat/ProfileProject/Profiles/ProjectProfile.owl" title="ProjectProfile.owl" tooltip="ProfileProject/Profiles/ProjectProfile.owl" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProfileProject/Profiles/ProjectProfile.owl"/>
-</editor>
-<editor activePart="true" focus="true" id="au.com.langdale.cimtoole.editors.InfoModelEditor" name="SIMES_Labs.xmi" partName="SIMES_Labs.xmi" path="D:/Users - Nina - Desktop sa D/Nina Fax/Cetvrta godina/Blok3/Projekat2018/ModelLabsProjekat2018/ModelLabsProjekat/ModelLabs/projekat/ProfileProject/Schema/SIMES_Labs.xmi" title="SIMES_Labs.xmi" tooltip="ProfileProject/Schema/SIMES_Labs.xmi" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProfileProject/Schema/SIMES_Labs.xmi"/>
 </editor>
 </editors>
 <views>
@@ -47,7 +43,9 @@
 <view id="au.com.langdale.cimtoole.views.Documentation" partName="Documentation">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.internal.introview" partName="Welcome">
 <viewState>
 <presentation currentPage="root" restore="true"/>
@@ -73,7 +71,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="au.com.langdale.cimtoole.CIMToolPerspective">
+<perspectives activePart="org.eclipse.ui.views.ContentOutline" activePerspective="au.com.langdale.cimtoole.CIMToolPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -155,12 +153,12 @@
 <perspective_action id="au.com.langdale.cimtoole.CIMToolBrowsingPerspective"/>
 <perspective_action id="au.com.langdale.cimtoole.ValidationPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="au.com.langdale.cimtoole.views.ProjectModelView"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.internal.introview"/>
 <view id="au.com.langdale.cimtoole.views.Documentation"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="au.com.langdale.cimtoole.views.ProjectModelView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -181,7 +179,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18910424" ratioLeft="361" ratioRight="1548" relationship="2" relative="org.eclipse.ui.internal.ViewStack@169b66e"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@14828e7" ratio="0.60631" ratioLeft="442" ratioRight="287" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.internal.introview" label="Welcome"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -200,7 +198,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1424b7b" ratio="0.5" ratioLeft="331" ratioRight="331" relationship="4" relative="org.eclipse.ui.internal.ViewStack@169b66e">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9cc2ae" ratio="0.49944994" ratioLeft="454" ratioRight="455" relationship="4" relative="org.eclipse.ui.internal.ViewStack@169b66e">
 <folder activePageID="au.com.langdale.cimtoole.views.ProjectModelView" appearance="2" expanded="2">
 <page content="au.com.langdale.cimtoole.views.ProjectModelView" label="Project Model"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -221,6 +219,9 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" uri="file:/C:/Users/Nina/Desktop/projekat/Profiles/ProjectProfile.owl"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.InfoModelEditor" path="/ProfileProject/Schema/SIMES_Labs.xmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.InfoModelEditor" path="/ProfileProject/Schema/SIMES_Labs.xmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" path="/ProfileProject/Profiles/ProjectProfile.owl"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.InfoModelEditor" path="/ProfileProject/Schema/SIMES_Labs.xmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" path="/ProfileProject/Profiles/ProjectProfile.owl"/>
 </editors>
 <item historyLabel="SIMES_Labs.xmi" index="0"/>
 <item historyLabel="ProjectProfile.owl" index="1"/>
@@ -231,7 +232,22 @@
 <item historyLabel="ProjectProfile.owl" index="1"/>
 <item historyLabel="SIMES_Labs.xmi" index="4"/>
 <item historyLabel="ProjectProfile.owl" index="1"/>
-<item active="true" historyLabel="SIMES_Labs.xmi" index="5"/>
+<item historyLabel="SIMES_Labs.xmi" index="5"/>
+<item historyLabel="ProjectProfile.owl" index="6"/>
+<item historyLabel="SIMES_Labs.xmi" index="5"/>
+<item historyLabel="ProjectProfile.owl" index="6"/>
+<item historyLabel="ProjectProfile.owl" index="6"/>
+<item historyLabel="ProjectProfile.owl" index="6"/>
+<item historyLabel="ProjectProfile.owl" index="6"/>
+<item historyLabel="SIMES_Labs.xmi" index="7"/>
+<item historyLabel="ProjectProfile.owl" index="8"/>
+<item historyLabel="SIMES_Labs.xmi" index="7"/>
+<item historyLabel="ProjectProfile.owl" index="8"/>
+<item historyLabel="SIMES_Labs.xmi" index="7"/>
+<item historyLabel="ProjectProfile.owl" index="8"/>
+<item historyLabel="SIMES_Labs.xmi" index="7"/>
+<item historyLabel="ProjectProfile.owl" index="8"/>
+<item active="true" historyLabel="ProjectProfile.owl" index="8"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -249,20 +265,23 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ProjectProfile.legacy-rdfs" tooltip="ProfileProject/Profiles/ProjectProfile.legacy-rdfs">
+<persistable path="/ProfileProject/Profiles/ProjectProfile.legacy-rdfs"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" name="ProjectProfile.owl" tooltip="ProfileProject/Profiles/ProjectProfile.owl">
+<persistable path="/ProfileProject/Profiles/ProjectProfile.owl"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.InfoModelEditor" name="SIMES_Labs.xmi" tooltip="ProfileProject/Schema/SIMES_Labs.xmi">
 <persistable path="/ProfileProject/Schema/SIMES_Labs.xmi"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" name="ProjectProfile.owl" tooltip="C:\Users\Nina\Desktop\projekat\Profiles\ProjectProfile.owl">
-<persistable uri="file:/C:/Users/Nina/Desktop/projekat/Profiles/ProjectProfile.owl"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="ProjectProfile.html" tooltip="ProfileProject/Profiles/ProjectProfile.html">
 <persistable path="/ProfileProject/Profiles/ProjectProfile.html"/>
 </file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" name="ProjectProfile.owl" tooltip="C:\Users\Nina\Desktop\projekat\Profiles\ProjectProfile.owl">
+<persistable uri="file:/C:/Users/Nina/Desktop/projekat/Profiles/ProjectProfile.owl"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.RepairEditor" name="ProjectProfile.repair" tooltip="ProfileProject/Profiles/ProjectProfile.repair">
 <persistable path="/ProfileProject/Profiles/ProjectProfile.repair"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="au.com.langdale.cimtoole.editors.MessageModelEditor" name="ProjectProfile.owl" tooltip="ProfileProject/Profiles/ProjectProfile.owl">
-<persistable path="/ProfileProject/Profiles/ProjectProfile.owl"/>
 </file>
 </mruList>
 </workbench>

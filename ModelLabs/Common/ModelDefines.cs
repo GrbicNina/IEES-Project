@@ -18,6 +18,7 @@ namespace FTN.Common
         SWITCHSCHEDULE                      = 0x0007,
 	}
 
+
     [Flags]
 	public enum ModelCode : long
 	{
@@ -69,10 +70,10 @@ namespace FTN.Common
 
         BASICINTS                           = 0x1500000000000000,
         BASICINTS_STARTTIME                 = 0x1500000000000108,
-        BASICINTS_VAL1MUL                   = 0x1500000000000205,
-        BASICINTS_VAL1UNIT                  = 0x1500000000000305,
-        BASICINTS_VAL2MUL                   = 0x1500000000000405,
-        BASICINTS_VAL2UNIT                  = 0x1500000000000505,
+        BASICINTS_VAL1MUL                   = 0x150000000000020a,
+        BASICINTS_VAL1UNIT                  = 0x150000000000030a,
+        BASICINTS_VAL2MUL                   = 0x150000000000040a,
+        BASICINTS_VAL2UNIT                  = 0x150000000000050a,
 
         REGULARINTERVALSCH                  = 0x1510000000000000,
         REGULARINTERVALSCH_TIMEPOINTS       = 0x1510000000000119,

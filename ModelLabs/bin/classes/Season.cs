@@ -19,14 +19,14 @@ namespace FTN {
         /// Date season ends.
         private System.DateTime? cim_endDate;
         
-        private const bool isEndDateMandatory = true;
+        private const bool isEndDateMandatory = false;
         
         private const string _endDatePrefix = "cim";
         
         /// Date season starts.
         private System.DateTime? cim_startDate;
         
-        private const bool isStartDateMandatory = true;
+        private const bool isStartDateMandatory = false;
         
         private const string _startDatePrefix = "cim";
         
