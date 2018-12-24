@@ -1,0 +1,80 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="8">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DT_12500" />
+            <Property id="IDOBJ_NAME" value="DayTypeObject1" />
+            <Property id="IDOBJ_ALIASNAME" value="DT_Obj1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffe" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DT_12577" />
+            <Property id="IDOBJ_NAME" value="DayTypeObject2" />
+            <Property id="IDOBJ_ALIASNAME" value="DT_Obj2" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffd" type="DAYTYPE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DT_12584" />
+            <Property id="IDOBJ_NAME" value="DayTypeObject3" />
+            <Property id="IDOBJ_ALIASNAME" value="DT_Obj3" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="SEASON" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="S_12000" />
+            <Property id="IDOBJ_NAME" value="SeasonObject1" />
+            <Property id="IDOBJ_ALIASNAME" value="S_Obj1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="REGTIMEPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RTP_12001" />
+            <Property id="IDOBJ_NAME" value="RegTimePointObject1" />
+            <Property id="IDOBJ_ALIASNAME" value="RTP_Obj1" />
+            <Property id="REGTIMEPOINT_SEQNUM" value="77501" />
+            <Property id="REGTIMEPOINT_VALUE1" value="4740" />
+            <Property id="REGTIMEPOINT_VALUE2" value="7852" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003fffffffe" type="REGTIMEPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RTP_12002" />
+            <Property id="IDOBJ_NAME" value="RegTimePointObject2" />
+            <Property id="IDOBJ_ALIASNAME" value="RTP_Obj2" />
+            <Property id="REGTIMEPOINT_SEQNUM" value="77502" />
+            <Property id="REGTIMEPOINT_VALUE1" value="7740" />
+            <Property id="REGTIMEPOINT_VALUE2" value="9946" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="BREAKER" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RTP_12555" />
+            <Property id="IDOBJ_NAME" value="BreakerObject1" />
+            <Property id="IDOBJ_ALIASNAME" value="B_Obj1" />
+            <Property id="BREAKER_INTRANTIME" value="15" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffe" type="BREAKER" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="RTP_12566" />
+            <Property id="IDOBJ_NAME" value="BreakerObject2" />
+            <Property id="IDOBJ_ALIASNAME" value="B_Obj2" />
+            <Property id="BREAKER_INTRANTIME" value="13" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>
